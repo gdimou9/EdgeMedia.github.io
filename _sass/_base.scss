@@ -74,18 +74,18 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: black;
+    background-color: white;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: black;
+        color: $theme-primary;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken(black, 10%);
+            color: darken($theme-primary, 10%);
         }
     }
     .nav {
