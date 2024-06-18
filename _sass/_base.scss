@@ -1,3 +1,7 @@
+/* Define your new primary color */
+$theme-primary: #9575cd;
+
+/* Update the CSS with the new color */
 html,
 body {
     height: 100%;
@@ -231,7 +235,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba( purple, .9 );
+        background: rgba( $theme-primary, .9 );
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -300,7 +304,7 @@ header {
 }
 
 .btn-primary {
-    @include button-variant(white, purple, purple);
+    @include button-variant(white, $theme-primary, $theme-primary);
 }
 
 .btn {
