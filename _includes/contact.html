@@ -19,30 +19,10 @@
             </a>
         </div>
         <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="tel:+306949117184" onclick="togglePhoneNumber(event)">
-                <i id="phoneIcon" class="fa fa-phone fa-3x"></i>
-            </a>
-        </div>
-        
-        <script>
-            var phoneNumbers = [
-                "+306949117184",  // First phone number
-                "+306983953302"   // Second phone number
-            ];
-            var currentIndex = 0;
-        
-            function togglePhoneNumber(event) {
-                event.preventDefault();
-                var phoneIcon = document.getElementById('phoneIcon');
-        
-                // Toggle between phone numbers
-                currentIndex = (currentIndex + 1) % phoneNumbers.length;
-                var currentPhoneNumber = phoneNumbers[currentIndex];
-        
-                // Update link href
-                event.currentTarget.setAttribute('href', 'tel:' + currentPhoneNumber);
-            }
-        </script>
+    <a href="tel:+306983953302">
+        <img src="path_to_your_logo.png" alt="Phone Icon" style="width: 100px; height: 100px;">
+    </a>
+</div>
 
     </div>
 </section>
