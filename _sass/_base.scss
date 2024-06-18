@@ -300,7 +300,7 @@ header {
 }
 
 .btn-primary {
-    @include button-variant(white, purple, $theme-primary);
+    @include button-variant(white, purple, purple);
 }
 
 .btn {
