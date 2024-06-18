@@ -18,19 +18,31 @@
                 <p>{{ site.email }}</p>
             </a>
         </div>
-  <div class="col-lg-2 col-lg-offset-1 text-center">
-    <map name="phone-map">
-        <area shape="rect" coords="0,0,100,100" href="tel:+306949117184" alt="Anna Syrigonaki">
-        <area shape="rect" coords="100,0,200,100" href="tel:+306983953302" alt="George Dimou">
-    </map>
-    <a href="tel:+306949117184" usemap="#phone-map">
-        <i class="fa fa-phone fa-3x"></i>
-    </a>
-    <p>Click the icon to call</p>
-    <a href="tel:+306983953302" style="margin-top: 10px;">
-        <i class="fa fa-phone fa-3x"></i>
-    </a>
-</div>
+        <div class="col-lg-2 col-lg-offset-1 text-center">
+            <a href="tel:+306949117184" onclick="togglePhoneNumber(event)">
+                <i id="phoneIcon" class="fa fa-phone fa-3x"></i>
+            </a>
+        </div>
+        
+        <script>
+            var phoneNumbers = [
+                "+306949117184",  // First phone number
+                "+306983953302"   // Second phone number
+            ];
+            var currentIndex = 0;
+        
+            function togglePhoneNumber(event) {
+                event.preventDefault();
+                var phoneIcon = document.getElementById('phoneIcon');
+        
+                // Toggle between phone numbers
+                currentIndex = (currentIndex + 1) % phoneNumbers.length;
+                var currentPhoneNumber = phoneNumbers[currentIndex];
+        
+                // Update link href
+                event.currentTarget.setAttribute('href', 'tel:' + currentPhoneNumber);
+            }
+        </script>
 
     </div>
 </section>
