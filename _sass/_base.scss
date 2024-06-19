@@ -79,7 +79,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
+        color: black;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -95,7 +95,7 @@ aside {
                 text-transform: uppercase;
                 font-weight: 700;
                 font-size: 13px;
-                color: $theme-dark;
+                color: black;
                 &:hover {
                     color: $theme-primary;
                 }
@@ -119,14 +119,14 @@ aside {
             color: rgba(white, .7);
             &:hover,
             &:focus {
-                color: white;
+                color: black;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
             color: rgba(white, .7);
             &:hover {
-                color: white;
+                color: darken(black, 10%);
             }
         }
         &.affix {
@@ -142,7 +142,7 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                color: black;
                 &:hover {
                     color: $theme-primary;
                 }
