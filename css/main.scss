@@ -36,9 +36,7 @@
 // variables.less
 $theme-primary: #F05F40;
 $theme-dark: #222;
-.custom-color {
-    color: #A56DD1;
-}
+$custom-color: #A56DD1;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
