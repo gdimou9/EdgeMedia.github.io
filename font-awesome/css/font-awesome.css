@@ -4,11 +4,6 @@
  */
 /* FONT PATH
  * -------------------------- */
-<head>
-    <!-- Other head content -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-</head>
-
 @font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
