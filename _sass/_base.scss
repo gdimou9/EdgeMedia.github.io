@@ -168,6 +168,15 @@ header {
         padding: 100px 15px 100px;
         width: 100%;
         .header-content-inner {
+    position: relative;
+    z-index: 1; /* Ensure content is above the background image */
+    background-color: rgba(169, 169, 169, 0.88); /* Dark grey with 80% opacity */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 50px; /* Spacing between paragraph and button */
+}
+
+        .header-content-inner {
             h1 {
                 font-weight: 700;
                 margin-top: 0;
