@@ -159,7 +159,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('https://media.discordapp.net/attachments/1244666316384632874/1252695273428484248/moderately_blurred_advertising_agency_office.jpg?ex=66752123&is=6673cfa3&hm=b96fe1ce4bdbc190b478a38c76e2022000e3f0a29e80220ea7620de5ac8e1ad8&=&format=webp&width=1172&height=670');
+    background-image: src="img/header.jpeg";
     text-align: center;
     color: white;
     .header-content {
