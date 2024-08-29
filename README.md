@@ -1,14 +1,5 @@
-# Creative Theme for Jekyll
+# Edge Media Agency Website
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+🌐 This project involves the development of a GitHub Page that serves as a showcase for a marketing agency's online presence. We created this GitHub Page in order to practice one of the Data Analytics Bootcamp Courses and designed to be used in conjunction with the [Marketing Campaign Effectiveness Report](https://github.com/gdimou9/Marketing_Campaign_Effectiveness_Report). The goal is to demonstrate how data analytics can be integrated into marketing strategies to enhance business outcomes.
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
-
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
-
-## To use the Creative Theme template in your project
-
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
-
+**Feel free to navigate and explore our Marketing Agency Website!**
